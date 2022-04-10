@@ -1,7 +1,7 @@
 import { Module, Global } from '@nestjs/common';
 
-const API_KEY_PROD='admin';
-const API_KEY='123456';
+const API_KEY_PROD = 'admin';
+const API_KEY = '123456';
 
 @Global() // inidicamos que es un modulo global para que cualquier servicio lo pueda importar
 @Module({
