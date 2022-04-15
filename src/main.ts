@@ -12,7 +12,7 @@ async function bootstrap() {
       forbidNonWhitelisted: true,
     }),
   );
-  
+
   const config = new DocumentBuilder()
     .setTitle('API')
     .setDescription('PLATZI STORE')
